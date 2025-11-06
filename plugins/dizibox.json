@@ -1,12 +1,20 @@
 {
-  "id": "dizibox",
-  "name": "DiziBOX",
-  "version": 1,
-  "lang": "tr",
+  "name": "Dizibox",
+  "version": "2.0",
   "author": "bektasonline",
-  "description": "DiziBOX - Yabancı diziler, yeni bölümler",
-  "type": "video",
-  "iconUrl": "https://www.dizibox.live/wp-content/uploads/2023/08/dizibox-logo.png",
-  "category": "tv",
-  "url": "https://raw.githubusercontent.com/bektasonline/dizibox-plugins/main/plugins/dizibox.js"
+  "baseUrl": "https://www.dizibox.live",
+  "homepage": "https://www.dizibox.live",
+  "searchEnabled": false,
+  "timeout": 10000,
+  "delayBetweenRequests": 600,
+  "cacheTTL": 3600000,
+  "selectors": {
+    "mainItem": ".movie-item a",
+    "title": "[title]",
+    "poster": "img[src]",
+    "seasonList": ".season-list li",
+    "episodeLink": "a",
+    "playerIframe": ".player iframe",
+    "videoSource": "video source"
+  }
 }
