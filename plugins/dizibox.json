@@ -1,0 +1,12 @@
+{
+  "id": "dizibox",
+  "name": "DiziBOX",
+  "version": 1,
+  "lang": "tr",
+  "author": "bektasonline",
+  "description": "DiziBOX - Yabancı diziler, yeni bölümler",
+  "type": "video",
+  "iconUrl": "https://www.dizibox.live/wp-content/uploads/2023/08/dizibox-logo.png",
+  "category": "tv",
+  "url": "https://raw.githubusercontent.com/bektasonline/dizibox-plugins/main/plugins/dizibox.js"
+}
